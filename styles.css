@@ -59,7 +59,7 @@ img[src$=".avif"] {
 
 @font-face {
     font-family: "Norse-Bold";
-    src: url(/sign-up-form/fonts/Norse-Bold.woff2) format('woff2');
+    src: url(fonts/Norse-Bold.woff2) format('woff2');
     font-style: normal;
     font-weight: 700;
 }
