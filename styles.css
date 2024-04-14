@@ -1,5 +1,6 @@
 :root {
     --custom-blue: rgb(77, 131, 248);
+    --creator-color:  #cecbcb;
 
 }
 
@@ -64,10 +65,23 @@ img[src$=".avif"] {
     font-weight: 700;
 }
 
-figcaption {
+ #Logo-caption {
     font-family: "Norse-Bold";
     font-size: 7rem;
     color: #fff;
+}
+
+#Creator {
+    position: absolute;
+    bottom: 44px;
+    right: 160px;
+    /* text-decoration: none; */
+    color: var(--creator-color);
+    font-size: 14px;
+}
+
+#Creator a {
+    color: var(--creator-color);
 }
 
 #odin-logo img {

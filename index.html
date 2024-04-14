@@ -11,10 +11,17 @@
 <body>
     <main>
         <section id="background">
-            <img src="images/photo-1585202900225-6d3ac20a6962.avif" alt="green-fern-plant">
+            <figure>
+                <img src="images/photo-1585202900225-6d3ac20a6962.avif" alt="green-fern-plant">
+                <figcaption id="Creator">Photo by <a
+                        href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie
+                        West</a> on <a
+                        href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                </figcaption>
+            </figure>
             <figure id="odin-logo">
                 <img src="images/odin-logo.png" alt="odin-logo">
-                <figcaption>ODIN</figcaption>
+                <figcaption id="Logo-caption">ODIN</figcaption>
             </figure>
         </section>
 
@@ -47,11 +54,13 @@
                 </div>
                 <div id="user_password">
                     <div><label for="password">PASSWORD</label></div>
-                    <input type="password" id="password" name="Password" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$"> <br>
+                    <input type="password" id="password" name="Password" required
+                        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$"> <br>
                     <p>*password do not match</p>
                     <div class="confirm_password">
                         <div><label for="">CONFIRM PASSWORD</label></div>
-                        <input type="password" id="password" name="Confirm-password" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$">
+                        <input type="password" id="password" name="Confirm-password" required
+                            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$">
                     </div>
                 </div>
             </form>
